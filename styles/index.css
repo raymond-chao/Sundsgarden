@@ -5,13 +5,11 @@ h1 {
     text-align: center;
     font-style: italic;
 }
-h2 {
+
+h2, h3, h4 {
     text-align: center;
     color: #274546;
-}
-h3, h4 {
-    text-align: center;
-    color: #274546;
+    
 
 }
 p {
@@ -21,10 +19,18 @@ p {
 body {
     background-color: #e3e3db;
 }
-p {
-    color:#274546;
+
+.site-name {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-style: bold;
+    
 }
-img {
+
+ img {
+    display: inline-block;
+    max-height: 200px;
+    max-width: 200px;
     border: 5px solid #274546;
 }
 footer {
@@ -33,4 +39,22 @@ footer {
     padding: 10px;
     border-top: 1px solid #ccc;
 }
+.button{
+    background-color: #274546;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    text-align: center;
+  }
